@@ -1,0 +1,90 @@
+Test cases for GitHub:
+
+____________________________________________________________________
+ID:01
+
+SUMMARY: The user cannot register using a previously created account
+
+Enviroment: Windows 10 (64-bit), Google Chrome Version 103.0.5060.134
+
+Test data: Email: serhiychuk91@gmail.com
+
+Preconditions: The user creates an account and logs out.
+
+Step to reproduse:
+  1. Go to the "https://github.com/" page
+  2. In the "Email address" field type email from test data
+  3. Click on [Sign up for GitHub ] button 
+
+Expected result: Error message "Email is invalid or already taken" appears
+____________________________________________________________________
+ID:02
+
+SUMMARY: After clicking on the "Community" link, the page scrolled to the "Community" blok
+
+Environment: Windows 10 (64-bit), Google Chrome Version 103.0.5060.134
+
+Test data: None
+
+Preconditions: User logged out
+
+Step to reproduce:
+  1. Go to the "https://github.com/" page
+  2. Scroll the main page to the "Community" link
+  3. Click on the "Community" link
+
+Expected result: Page scrolled to the  "Community" blok and "The home for all developers — including you" title of the blok appears
+____________________________________________________________________
+ID:03 
+
+SUMMARY: After clicking the [Start a free trial] button on main page,  two options appear
+
+Environment: Windows 10 (64-bit), Google Chrome Version 103.0.5060.134
+
+Test data: None
+
+Preconditions: User logged out
+
+Step to reproduce:
+  1. Go to the "https://github.com/" page
+  2. Scroll the main page to the [Start a free trial] button
+  3. Click on the [Start a free trial] button
+
+Expected result: Redirect to the page with two clickable options: "Enterprise cloud" and "Enterprise server"
+____________________________________________________________________
+ID:04
+
+SUMMARY: After clicking the [GitHub] Google Play button, redirected to the [GitHub] page in Google Play
+
+Environment: Windows 10 (64-bit), Google Chrome Version 103.0.5060.134
+
+Test data: None
+
+Preconditions: User logged out
+
+Step to reproduce:
+  1. Go to the "https://github.com/" page
+  2. On the header of the page click on the "Product" drop-down menu
+  3. Click on the [Mobile] string
+  4. On GitHub mobile page click on the [Get In On Google Play] button
+
+Expected result: Redirect to the "GitHub - Apps on Google Play " page.
+____________________________________________________________________
+ID:05
+
+SUMMARY: Inputed data in the Search field displayed on the result search page
+
+Environment: Windows 10 (64-bit), Google Chrome Version 103.0.5060.134
+
+Test data: Search data: "autotest'
+
+Preconditions: User logged out
+
+Step to reproduce:
+  1. Go to the "https://github.com/" page
+  2. On the header of the page click on the "Search" field
+  3. In "Search" field type "autotest" query
+  4. Click "Search" button
+
+Expected result: On the result, the search page displayed all data which contained the "autotest" query
+____________________________________________________________________
